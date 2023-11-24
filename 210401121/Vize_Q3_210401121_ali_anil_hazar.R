@@ -1,3 +1,4 @@
+library(httr)
 spotify_token <- function() {
   # Set client ID and client secret
   client_id <- Sys.getenv("SPOTIFY_ID")
